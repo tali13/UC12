@@ -1,0 +1,206 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+    }
+    header{
+    background-color: black;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0px 25px 0px 25px;/*cima,baixo,direita,esquerda*/
+    
+    }
+    a{
+    color:#7c7c7c;
+    text-decoration:none;
+    
+    }
+    p{
+    
+    font-size: 60px;
+    
+    }
+    button{
+    font-size: 20px;
+    margin-top: 35px;
+    background-color: #684836;
+    margin: 0px;
+    border: 35px;
+    border-radius: 35px;
+    
+    }
+    
+    #banner{
+    height: 700px;
+    background-image: url(https://img.freepik.com/fotos-premium/linha-de-policia-a-cena-do-crime-nao-atravessa-barricada-carro-de-policia-com-fita-amarela-e-luzes-estroboscopicas-piscando_693425-8044.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+    #banner div{
+    background-color: #a83d0b8a;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    
+    }
+    
+    footer{
+    
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    
+    }
+
+    #bineer{
+        height: 100px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        }
+        #binner div{
+            background-color: #a53f0fb6;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 30px;
+            
+            }
+            #pai{
+
+              
+                padding: 35px;
+                flex-direction: row; 
+                justify-content: center;
+                display: flex;
+                gap: 15px;
+                align-items: center;
+                flex-grow: wrap-reverse;
+                height: 500px;
+                
+                }
+            #filho{
+
+                align-items: center;
+               background-color: rgba(156, 70, 20, 0.733);
+               padding: 20px;
+               flex-direction: column; 
+               border-radius: 20px;
+               
+               }
+               #filho-2{
+
+                align-items: center;
+               background-color: rgba(156, 70, 20, 0.61);
+               padding: 40px;
+               flex-direction: column; 
+               border-radius: 20px;
+               
+            
+               
+               }
+               #filho-3{
+
+                align-items: center;
+               background-color: rgba(156, 70, 20, 0.678);
+               padding: 20px;
+               flex-direction: column; 
+               border-radius: 20px;
+               
+               }
+
+               #form-container{
+
+background-image:url(https://images.unsplash.com/photo-1597290282695-edc43d0e7129?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFsYyVDMyVBM28lMjBkZSUyMGJhcnxlbnwwfHwwfHx8MA%3D%3D);
+height: 1200px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#form-container form{
+
+background-color: rgba(255, 115, 0, 0.596);
+width:700px;
+padding: 60px;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+input[type = "text"],
+input[type ="email"],
+input[type = "password"],
+section,
+
+textarea{
+
+padding: 10px;
+border: 1px;
+border-radius: 35;
+}
+#zizi{
+    height: 700px;
+    background-image: url(https://images.unsplash.com/photo-1597290282695-edc43d0e7129?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFsYyVDMyVBM28lMjBkZSUyMGJhcnxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+    table{
+
+
+        background-color: #ffffff;
+        border-collapse:separate;
+        border-radius: 10px;
+        width: 600px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.521);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        align-self: center;
+        
+    }
+    th,td{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 8px;
+    text-align: left;
+    
+    }
+    th{
+    
+        background-color: rgb(231, 125, 26);
+        color: rgb(255, 255, 255);
+    }
+    
+    #tabela{
+
+        background-image: url(https://static.vecteezy.com/ti/fotos-gratis/t1/15274591-abaixe-o-tampo-da-mesa-de-madeira-com-prateleiras-desfocadas-e-fundo-de-garrafas-para-montagem-do-expositor-ou-visual-do-produto-gratis-foto.jpg);
+    }
